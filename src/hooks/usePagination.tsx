@@ -45,7 +45,7 @@ export const usePagination = () => {
 
 	useEffect(() => {
 		loadPokemons();
-	}, []);
+	});
 
 	return {pokemons, loadPokemons};
 };
