@@ -12,7 +12,12 @@ export const Title = ({label = '[NOT_LABEL]'}) => {
 				fontSize: 35,
 				fontWeight: 'bold',
 				margin: 15,
+				height: 75,
+				textAlignVertical: 'center',
 				top: top + 20,
+
+				// borderColor: 'red', // TODO <- drop this
+				// borderWidth: 1, // TODO <- drop this
 			}}>
 			{label}
 		</Text>
